@@ -1,0 +1,67 @@
+@import url();
+
+h1{
+    font-family: 'URW Chancery L, cursive';
+    
+  }
+body{
+    background-color: aliceblue;
+    /* coloca imagem no fundo */
+    background-image: url(fotos/fundo2.jpg);
+    /* não repete a imagem de fundo */
+    background-repeat: no-repeat;
+    /* estica a imagem no fundo da tela  */
+    background-size: cover ;
+    align-items: center;
+}
+
+img{
+    width: 300px;
+    border-radius: 15px;
+}
+
+.gallery{
+    
+    width: fit-content;
+    display: block;  /* alinha os elementos um por linha */
+}
+
+.subfotos{
+    display: flex;  /* deixa eles flexiveis na linha */
+    margin: 3%;
+    flex-direction: row;
+}
+
+.sub{
+    /* define tamanho das sub imagens */
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px -10px rgba(21, 18, 24, 0.068);
+    margin: 1%;
+}
+
+.principal{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    display: block; 
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #daa520;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #7f6524 ;
+}
+
+
+#h-titulo{
+    height: 80%;
+
+}
